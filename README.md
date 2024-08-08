@@ -32,7 +32,7 @@
 
 ## Screenshots
 
-1. Login/Register![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/main/client/public/Login/Register.png)
+1. Login/Register![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/main/client/public/LoginOrRegister.png)
 2. Front Page
    ![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/main/client/public/FrontPage.png)
 3. Uploading files
