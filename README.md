@@ -74,32 +74,48 @@ Install dependencies
 - To start the backend server in Development mode
 
 ```bash
-	cd Connectify/api
-	npm run dev
+	cd /api
+	npm index.js
 ```
 
 - To start the frontend server in Development mode
 
 ```bash
-	cd Connectify/client
+	cd /client
 	npm run dev
 ```
 
-## Environment Variables
+## Configuration
 
-Create a **.env** file , in both backend and frontend .
+**To configure the project, follow these steps:**
 
-**Frontend** **.env**
+1. Install the config package for the backend:
+```bash
+	npm install config
+```
 
-        VITE_FRONTEND_URL=http://localhost:5173
-        VITE_BACKEND_URL=http://localhost:4001
+2. Create a config directory in the root directory of your project.
 
-**Backend** **.env**
+3. Create a default.json file in the config directory with the following content:
 
-        PORT=4001
-        DB_URL=mongodb://localhost:27017/ChatAppDB
-        FRONTEND_URL=http://localhost:5173
-        BACKEND_URL=http://localhost:4001
+ **config/default.json**
 
+{
+  "port":4001
+  "mongoURL": "mongodb://localhost:27017/ChatAppDB",
+  "jwtSecret": "yourjwtsecret",
+  "clientURL": "http://localhost:5173"
+  "apiURL": "http://localhost:4001"
+}
+
+4.Access the configuration in your backend code using the config package. For example:
+
+{
+const config = require('config');
+const port = config.get('port');
+const mongoURL = config.get('mongoURL');
+const clientURL = config.get('clientURL');
+const apiURL = config.get('apiURL');
+}
 
 ---
