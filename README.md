@@ -9,16 +9,17 @@
 - [Hiren Sharma](https://www.github.com/hiirrxnn)
 
 ## About The Project
+**ChatApp:** A real-time messaging application built with React, Tailwind CSS, Node.js, Express, MongoDB, and WebSocket. Users can register, log in, send messages and files, and search for other users. The frontend runs on Vite (port 5173), and the backend runs on Node.js (port 4001).
 
 ![HomePage](https://github.com/hiirrxnn/Connectify/blob/main/client/public/Main.png)
 
 ## Features
 
-**User Authentication (Login/Register)**
-**Real-time Messaging**
-**File Sharing**
-**Search Bar to Find Users**
-**Responsive Design**
+1. User Authentication (Login/Register)
+2. Real-time Messaging
+3. File Sharing
+4. Search Bar to Find Users
+5. Responsive Design
 
 ## Build With
 
