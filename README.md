@@ -100,20 +100,26 @@ Install dependencies
 
  **config/default.json**
 
-
+```
+{
   "port":4001
   "mongoURL": "mongodb://localhost:27017/ChatAppDB",
   "jwtSecret": "yourjwtsecret",
   "clientURL": "http://localhost:5173"
   "apiURL": "http://localhost:4001"
-
+}
+```
 
 4.Access the configuration in your backend code using the config package. For example:
 
+```
+{
 const config = require('config');
 const port = config.get('port');
 const mongoURL = config.get('mongoURL');
 const clientURL = config.get('clientURL');
 const apiURL = config.get('apiURL');
+}
+```
 
 ---
