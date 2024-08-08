@@ -10,7 +10,7 @@
 
 ## About The Project
 
-![HomePage](https://github.com/hiirrxnn/Connectify/blob/master/client/public/Main.png)SearchBFron
+![HomePage](https://github.com/hiirrxnn/Connectify/blob/main/client/public/Main.png)
 
 ## Features
 
@@ -32,13 +32,13 @@
 
 ## Screenshots
 
-1. Login/Register![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/master/client/public/Login/Register.png)
+1. Login/Register![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/main/client/public/Login/Register.png)
 2. Front Page
-   ![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/master/client/public/FrontPage.png)
+   ![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/main/client/public/FrontPage.png)
 3. Uploading files
-   ![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/master/client/public/FileBrowser.png)
+   ![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/main/client/public/FileBrowser.png)
 4. SearchBar
-   ![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/master/client/public/SearchBar.png)
+   ![App Screenshot](https://github.com/hiirrxnn/Connectify/blob/main/client/public/SearchBar.png)
 
 ## Prerequisites
 
