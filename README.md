@@ -1,78 +1,104 @@
-##ChatApp
-ChatApp is a real-time messaging application built with modern web technologies. It allows users to register, log in, send messages and files, and search for other users.
+![Cover](https://github.com/hiirrxnn/Connectify/blob/main/client/src/assets/Logo.png)
 
-#Features
-User Authentication (Login/Register)
-Real-time Messaging
-File Sharing
-Search Bar to Find Users
-Responsive Design
+# Connectify
 
-#Technologies Used
+**Connectify** : ChatApp is a real-time messaging application built with modern web technologies. It allows users to register, log in, send messages and files, and search for other users.
 
-Frontend:
-React
-Tailwind CSS
-Vite
 
-Backend:
-Node.js
-Express
-Database:
+## Author
+- [Hiren Sharma](https://www.github.com/hiirrxnn)
 
-MongoDB
-Real-time Communication:
+## About The Project
 
-WebSocket
+![HomePage](https://github.com/PalashChitnavis/BeatCode/blob/master/client/public/Main.png)SearchBFron
 
-#Getting Started
-Prerequisites
+## Features
+
+**User Authentication (Login/Register)**
+**Real-time Messaging**
+**File Sharing**
+**Search Bar to Find Users**
+**Responsive Design**
+
+## Build With
+
+**Client :** _React JS , Tailwind_
+
+**Server :** _Node JS , Express JS_ 
+
+**Database :** _MongoDB_
+
+**Real-time Communication :** _WebSocket_
+
+## Screenshots
+
+1. Login/Register![App Screenshot](https://github.com/PalashChitnavis/BeatCode/blob/master/client/public/Login/Register.png)
+2. Front Page
+   ![App Screenshot](https://github.com/PalashChitnavis/BeatCode/blob/master/client/public/FrontPage.png)
+3. Uploading files
+   ![App Screenshot](https://github.com/PalashChitnavis/BeatCode/blob/master/client/public/FileBrowser.png)
+4. SearchBar
+   ![App Screenshot](https://github.com/PalashChitnavis/BeatCode/blob/master/client/public/SearchBar.png)
+
+## Prerequisites
 
 Make sure you have the following installed on your system:
 
 Node.js
 npm (or yarn)
 MongoDB
-Installation
-Clone the repository:
 
-sh
-Copy code
-git clone https://github.com/yourusername/chatapp.git
-cd chatapp
-Install dependencies for both frontend and backend:
+## Run Locally
 
-For frontend:
+Clone the project
 
-sh
-Copy code
-cd frontend
-npm install
-For backend:
+```bash
+	git clone https://github.com/hiirrxnn/Connectify
+```
 
-sh
-Copy code
-cd backend
-npm install
-Running the Application
-Start the backend server:
+Go to the backend project directory
 
-sh
-Copy code
-cd backend
-npm start
-The backend server will run on port 4001.
+```bash
+	cd BeatCode/api
+```
 
-Start the frontend development server:
+Install dependencies
 
-sh
-Copy code
-cd frontend
-npm run dev
-The frontend will run on Vite's default port 5173.
+```bash
+	npm install
+```
 
-Configuration
-Make sure to configure your MongoDB connection in the backend. You can set up environment variables or edit the configuration file to point to your MongoDB instance.
+## Usage
 
-Screenshots
-Place your screenshots here
+- To start the backend server in Development mode
+
+```bash
+	cd Connectify/api
+	npm run dev
+```
+
+- To start the frontend server in Development mode
+
+```bash
+	cd Connectify/client
+	npm run dev
+```
+
+## Environment Variables
+
+Create a **.env** file , in both backend and frontend .
+
+**Frontend** **.env**
+
+        VITE_FRONTEND_URL=http://localhost:5173
+        VITE_BACKEND_URL=http://localhost:4001
+
+**Backend** **.env**
+
+        PORT=4001
+        DB_URL=mongodb://localhost:27017/ChatAppDB
+        FRONTEND_URL=http://localhost:5173
+        BACKEND_URL=http://localhost:4001
+
+
+---
