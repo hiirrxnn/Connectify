@@ -1,4 +1,4 @@
-#ChatApp
+##ChatApp
 ChatApp is a real-time messaging application built with modern web technologies. It allows users to register, log in, send messages and files, and search for other users.
 
 #Features
