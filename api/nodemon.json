@@ -1,0 +1,6 @@
+{
+  "env": {
+      "MONGO_ATLAS_PW" : "xxxx",
+      "MONGO_URL" : "mongodb+srv://eugengoldstein38:supermango@cluster0.1vmkpsp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    }
+}
