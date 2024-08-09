@@ -1,5 +1,4 @@
 const express = require('express');
-const config = require('config');
 const mongoose = require('mongoose');
 const User = require('./models/User');
 const cors = require('cors');
@@ -8,10 +7,12 @@ const cookieParser = require('cookie-parser');
 const bcrypt = require('bcryptjs');
 const ws = require('ws');
 const Message = require('./models/Message');
-const mongoURL =  config.get('mongoURL');
-const jwtSecret = config.get('jwtSecret');
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+const mongoURL = process.env.mongoURL;
+const jwtSecret = process.env.jwtSecret;
 const bcryptSalt = bcrypt.genSaltSync(10);
-const clientURL = config.get('clientURL');
+const clientURL = process.env.clientURL;
 const fs = require('fs');
 
 mongoose.connect(mongoURL);
@@ -115,7 +116,7 @@ app.post('/register', async (req, res) => {
   }
 });
 
-const server = app.listen(config.get('port'));
+const server = app.listen(process.env.port || 4000 );
 
 const wss = new ws.WebSocketServer({ server });
 wss.on('connection', (connection, req) => {

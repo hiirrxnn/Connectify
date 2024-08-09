@@ -1,5 +1,0 @@
-{
-  "mongoURL": "MONGO_URL",
-  "jwtSecret": "JWT_SECRET",
-  "clientURL": "CLIENT_URL"
-}

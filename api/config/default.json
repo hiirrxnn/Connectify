@@ -1,6 +1,0 @@
-{
-  "mongoURL": "mongodb://localhost:27017/ChatAppDB",
-  "jwtSecret": "fasjkdfs",
-  "clientURL": "http://localhost:5173",
-  "port": "4001"
-}
