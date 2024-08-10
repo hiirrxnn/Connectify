@@ -4,6 +4,11 @@
 
 **Connectify** : ChatApp is a real-time messaging application built with modern web technologies. It allows users to register, log in, send messages and files, and search for other users.
 
+## Live Link
+<div align="center">
+  <a href="https://connectifybyhiren.netlify.app/" target="_blank">Live Link</a>
+</div>
+
 
 ## Author
 - [Hiren Sharma](https://www.github.com/hiirrxnn)
@@ -90,6 +95,7 @@ Install dependencies
 Create a **.env** file , in the root directory of the project .
 
  **.env**
+
 
 	jwtSecret=yourjwtsecret
         port=4001
