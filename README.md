@@ -96,10 +96,10 @@ Create a **.env** file , in the root directory of the project .
 
  **.env**
 
-	port=4001
-        mongoURL=mongodb://localhost:27017/ConnectifyDB
-        clientURL=http://localhost:5173
-	jwtSecret=yourjwtsecret
-        apiURL=http://localhost:4001
+		port=4001	
+		mongoURL=mongodb://localhost:27017/ConnectifyDB
+		clientURL=http://localhost:5173
+		jwtSecret=yourjwtsecret
+		apiURL=http://localhost:4001
 
 ---
