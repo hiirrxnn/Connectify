@@ -5,7 +5,7 @@
 **Connectify** : ChatApp is a real-time messaging application built with modern web technologies. It allows users to register, log in, send messages and files, and search for other users.
 
 ## Live Link
-<div align="center">
+<div>
   <a href="https://connectifybyhiren.netlify.app/" target="_blank">Live Link</a>
 </div>
 
@@ -96,11 +96,10 @@ Create a **.env** file , in the root directory of the project .
 
  **.env**
 
-
-	jwtSecret=yourjwtsecret
-        port=4001
+	port=4001
         mongoURL=mongodb://localhost:27017/ConnectifyDB
         clientURL=http://localhost:5173
+	jwtSecret=yourjwtsecret
         apiURL=http://localhost:4001
 
 ---
