@@ -60,7 +60,7 @@ Clone the project
 Go to the backend project directory
 
 ```bash
-	cd Connectify/api
+	cd /api
 ```
 
 Install dependencies
@@ -75,7 +75,7 @@ Install dependencies
 
 ```bash
 	cd /api
-	npm index.js
+	node index.js
 ```
 
 - To start the frontend server in Development mode
@@ -85,41 +85,16 @@ Install dependencies
 	npm run dev
 ```
 
-## Configuration
+## Environment Variables
 
-**To configure the project, follow these steps:**
+Create a **.env** file , in the root directory of the project .
 
-1. Install the config package for the backend:
-```bash
-	npm install config
-```
+ **.env**
 
-2. Create a config directory in the root directory of your project.
-
-3. Create a default.json file in the config directory with the following content:
-
- **config/default.json**
-
-```
-{
-  "port":4001
-  "mongoURL": "mongodb://localhost:27017/ChatAppDB",
-  "jwtSecret": "yourjwtsecret",
-  "clientURL": "http://localhost:5173"
-  "apiURL": "http://localhost:4001"
-}
-```
-
-4.Access the configuration in your backend code using the config package. For example:
-
-```
-{
-const config = require('config');
-const port = config.get('port');
-const mongoURL = config.get('mongoURL');
-const clientURL = config.get('clientURL');
-const apiURL = config.get('apiURL');
-}
-```
+	jwtSecret=yourjwtsecret
+        port=4001
+        mongoURL=mongodb://localhost:27017/ConnectifyDB
+        clientURL=http://localhost:5173
+        apiURL=http://localhost:4001
 
 ---
